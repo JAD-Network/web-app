@@ -10,8 +10,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "internachi/modular": "^2.2",
-        "jad-network/solana-sdk": "*",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5"
@@ -20,6 +18,7 @@
         "fakerphp/faker": "^1.23",
         "larastan/larastan": "^3.0",
         "laravel/breeze": "^2.2",
+        "jad-network/laravel-solana": "*",
         "laravel/pail": "^1.1",
         "laravel/pint": "^v1.18.3",
         "laravel/sail": "^1.26",
@@ -75,7 +74,7 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
         {
