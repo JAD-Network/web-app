@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8238f66562a35457b7737cc858e0ffa7",
+    "content-hash": "37372b5352574ef027ba9fee673c7623",
     "packages": [
         {
             "name": "brick/math",
@@ -1763,6 +1763,38 @@
             "time": "2024-04-06T00:59:47+00:00"
         },
         {
+            "name": "jad-network/solana-sdk",
+            "version": "1.0",
+            "dist": {
+                "type": "path",
+                "url": "app-modules/solana-sdk",
+                "reference": "71161b7585b1ef7846923e6aa687fb887a18e508"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JadNetwork\\SolanaSDK\\Providers\\SolanaSDKServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JadNetwork\\SolanaSDK\\": "src/",
+                    "JadNetwork\\SolanaSDK\\Tests\\": "tests/",
+                    "JadNetwork\\SolanaSDK\\Database\\Factories\\": "database/factories/",
+                    "JadNetwork\\SolanaSDK\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "justinrainbow/json-schema",
             "version": "5.3.0",
             "source": {
@@ -2604,16 +2636,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.5.13",
+            "version": "v3.5.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "12ed984919bb468385949e7a09bb6f8ec5cb9959"
+                "reference": "e94a2cd1da95abc2c219190df09f1b34786dd00b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/12ed984919bb468385949e7a09bb6f8ec5cb9959",
-                "reference": "12ed984919bb468385949e7a09bb6f8ec5cb9959",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/e94a2cd1da95abc2c219190df09f1b34786dd00b",
+                "reference": "e94a2cd1da95abc2c219190df09f1b34786dd00b",
                 "shasum": ""
             },
             "require": {
@@ -2668,7 +2700,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.5.13"
+                "source": "https://github.com/livewire/livewire/tree/v3.5.14"
             },
             "funding": [
                 {
@@ -2676,7 +2708,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-27T14:56:05+00:00"
+            "time": "2024-11-28T15:35:31+00:00"
         },
         {
             "name": "monolog/monolog",
