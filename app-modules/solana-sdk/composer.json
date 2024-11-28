@@ -1,0 +1,24 @@
+{
+    "name": "jad-network/solana-sdk",
+    "description": "PHP Library for Solana RPC",
+    "type": "library",
+    "version": "1.0",
+    "license": "proprietary",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JadNetwork\\SolanaSDK\\": "src/",
+            "JadNetwork\\SolanaSDK\\Tests\\": "tests/",
+            "JadNetwork\\SolanaSDK\\Database\\Factories\\": "database/factories/",
+            "JadNetwork\\SolanaSDK\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JadNetwork\\SolanaSDK\\Providers\\SolanaSDKServiceProvider"
+            ]
+        }
+    }
+}
