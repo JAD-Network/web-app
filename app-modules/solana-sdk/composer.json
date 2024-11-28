@@ -4,7 +4,9 @@
     "type": "library",
     "version": "1.0",
     "license": "proprietary",
-    "require": {},
+    "require": {
+        "saloonphp/saloon": "^v3.7.0"
+    },
     "autoload": {
         "psr-4": {
             "JadNetwork\\SolanaSDK\\": "src/",
