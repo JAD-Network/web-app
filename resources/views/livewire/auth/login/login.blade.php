@@ -12,13 +12,8 @@
                 </p>
             </div>
             <!-- End Title -->
-
-            <!-- Button Group -->
-
-            <!-- End Button Group -->
-
             <form>
-                <div class="space-y-5">
+                <div class="flex flex-col gap-y-12">
                     <div>
                         <label for="hs-pro-dale" class="block mb-2 text-sm font-medium text-gray-800 dark:text-white">
                             Email

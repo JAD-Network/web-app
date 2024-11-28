@@ -14,13 +14,13 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Satoshi', ...defaultTheme.fontFamily.sans],
-                serif: ['Satoshi', ...defaultTheme.fontFamily.sans],
-                body: ['Satoshi', ...defaultTheme.fontFamily.sans],
-                display: ['Satoshi', ...defaultTheme.fontFamily.sans]
+                sans: ['tablet-gothic', ...defaultTheme.fontFamily.sans],
+                serif: ['moby', ...defaultTheme.fontFamily.sans],
+                body: ['moby', ...defaultTheme.fontFamily.sans],
+                display: ['moby', ...defaultTheme.fontFamily.sans]
             },
         },
     },
 
-    plugins: [forms,  require('preline/plugin')],
+    plugins: [forms, require('preline/plugin')],
 };
